@@ -24,10 +24,13 @@ module.exports = {
       undo: 'Desfazer',
       expand: 'Expandir',
       close: 'Fechar',
+      open_menu: 'Abrir menu',
+      close_menu: 'Fechar menu',
     },
     boolean: {
       true: 'Sim',
       false: 'Não',
+      null: '',
     },
     page: {
       create: 'Novo %{name}',
@@ -54,6 +57,10 @@ module.exports = {
         many_missing: 'Pelo menos uma das referências passadas não está mais disponível.',
         single_missing: 'A referência passada aparenta não estar mais disponível.',
       },
+      password: {
+        toggle_visible: 'Esconder senha',
+        toggle_hidden: 'Mostrar senha',
+      },
     },
     message: {
       about: 'Sobre',
@@ -69,11 +76,12 @@ module.exports = {
       no: 'Não',
       not_found: 'Foi digitada uma URL inválida, ou o link pode estar quebrado.',
       yes: 'Sim',
+      unsaved_changes: 'Algumas das suas mudanças não foram salvas, deseja realmente ignorá-las?',
     },
     navigation: {
       no_results: 'Nenhum resultado encontrado',
       no_more_results: 'A página numero %{page} está fora dos limites. Tente a página anterior.',
-      page_out_of_boundaries: 'Página %{page} fora o limite',
+      page_out_of_boundaries: 'Página %{page} fora do limite',
       page_out_from_end: 'Não é possível ir após a última página',
       page_out_from_begin: 'Não é possível ir antes da primeira página',
       page_range_info: '%{offsetBegin}-%{offsetEnd} de %{total}',
