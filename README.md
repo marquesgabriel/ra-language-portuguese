@@ -12,13 +12,15 @@ yarn add ra-language-portuguese
 
 ```js
 import portugueseMessages from 'ra-language-portuguese'
+import polyglotI18nProvider from 'ra-i18n-polyglot';
 
 const messages = {
     'pt': portugueseMessages,
 };
-const i18nProvider = locale => messages[locale];
 
-<Admin locale="pt" i18nProvider={i18nProvider}>
+const i18nProvider = polyglotI18nProvider((locale) => messages[locale], 'pt');
+
+<Admin i18nProvider={i18nProvider}>
   ...
 </Admin>
 ```
