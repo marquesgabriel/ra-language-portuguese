@@ -1,5 +1,5 @@
 {
-  "name": "ra-language-portuguese",
+  "name": "@henriko/ra-language-portuguese",
   "description": "Portuguese translations for react-admin, the frontend framework for building admin applications on top of REST services",
   "version": "1.0.0",
   "main": "index.js",
