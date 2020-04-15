@@ -15,7 +15,7 @@ npm install @henriko/ra-language-portuguese
 ## Usage
 
 ```js
-import portugueseMessages from "ra-language-portuguese";
+import portugueseMessages from "@henriko/ra-language-portuguese";
 import polyglotI18nProvider from "ra-i18n-polyglot";
 
 const messages = {
@@ -27,7 +27,7 @@ const i18nProvider = polyglotI18nProvider((locale) => messages[locale], "pt");
 <Admin i18nProvider={i18nProvider}>...</Admin>;
 ```
 
-This project was forked and adapted from original's [ra-language-portuguese](https://github.com/marquesgabriel/ra-language-portuguese) project
+This project was forked and adapted from original's [ra-language-portuguese](https://github.com/marquesgabriel/ra-language-portuguese) project.
 
 ## License
 

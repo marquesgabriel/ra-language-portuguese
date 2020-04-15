@@ -1,7 +1,7 @@
 {
   "name": "@henriko/ra-language-portuguese",
   "description": "Portuguese translations for react-admin, the frontend framework for building admin applications on top of REST services",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
