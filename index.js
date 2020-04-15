@@ -41,21 +41,28 @@ module.exports = {
       loading: 'Carregando',
       not_found: 'Não encontrado',
       show: '%{name} #%{id}',
+      empty: 'Ainda não há nenhum registro em %{name}',
+      invite: 'Gostaria de criar um novo?',
     },
     input: {
       file: {
         upload_several:
-        'Arraste alguns arquivos para fazer o upload, ou clique para selecioná-los.',
-        upload_single: 'Arraste o arquivo para fazer o upload, ou clique para selecioná-lo.',
+          'Arraste alguns arquivos para fazer o upload, ou clique para selecioná-los.',
+        upload_single:
+          'Arraste o arquivo para fazer o upload, ou clique para selecioná-lo.',
       },
       image: {
-        upload_several: 'Arraste algumas imagens para fazer o upload ou clique para selecioná-las',
-        upload_single: 'Arraste um arquivo para upload ou clique em selecionar arquivo.',
+        upload_several:
+          'Arraste algumas imagens para fazer o upload ou clique para selecioná-las',
+        upload_single:
+          'Arraste um arquivo para upload ou clique em selecionar arquivo.',
       },
       references: {
         all_missing: 'Não foi possível encontrar os dados das referencias.',
-        many_missing: 'Pelo menos uma das referências passadas não está mais disponível.',
-        single_missing: 'A referência passada aparenta não estar mais disponível.',
+        many_missing:
+          'Pelo menos uma das referências passadas não está mais disponível.',
+        single_missing:
+          'A referência passada aparenta não estar mais disponível.',
       },
       password: {
         toggle_visible: 'Esconder senha',
@@ -65,22 +72,28 @@ module.exports = {
     message: {
       about: 'Sobre',
       are_you_sure: 'Tem certeza?',
-      bulk_delete_content: 'Você tem certeza que deseja excluir %{name}? |||| Você tem certeza que deseja excluir estes %{smart_count} itens?',
-      bulk_delete_title: 'Excluir %{name} |||| Excluir %{smart_count} %{name} itens',
+      bulk_delete_content:
+        'Você tem certeza que deseja excluir %{name}? |||| Você tem certeza que deseja excluir estes %{smart_count} itens?',
+      bulk_delete_title:
+        'Excluir %{name} |||| Excluir %{smart_count} %{name} itens',
       delete_content: 'Você tem certeza que deseja excluir?',
       delete_title: 'Excluir %{name} #%{id}',
       details: 'Detalhes',
       error: 'Um erro ocorreu e a sua requisição não pôde ser completada.',
-      invalid_form: 'Este formulário não está valido. Certifique-se de corrigir os erros',
+      invalid_form:
+        'Este formulário não está valido. Certifique-se de corrigir os erros',
       loading: 'A página está carregando. Um momento, por favor',
       no: 'Não',
-      not_found: 'Foi digitada uma URL inválida, ou o link pode estar quebrado.',
+      not_found:
+        'Foi digitada uma URL inválida, ou o link pode estar quebrado.',
       yes: 'Sim',
-      unsaved_changes: 'Algumas das suas mudanças não foram salvas, deseja realmente ignorá-las?',
+      unsaved_changes:
+        'Algumas das suas mudanças não foram salvas, deseja realmente ignorá-las?',
     },
     navigation: {
       no_results: 'Nenhum resultado encontrado',
-      no_more_results: 'A página numero %{page} está fora dos limites. Tente a página anterior.',
+      no_more_results:
+        'A página numero %{page} está fora dos limites. Tente a página anterior.',
       page_out_of_boundaries: 'Página %{page} fora do limite',
       page_out_from_end: 'Não é possível ir após a última página',
       page_out_from_begin: 'Não é possível ir antes da primeira página',
@@ -99,16 +112,19 @@ module.exports = {
       logout: 'Sair',
     },
     notification: {
-      updated: 'Item atualizado com sucesso |||| %{smart_count} itens foram atualizados com sucesso',
+      updated:
+        'Item atualizado com sucesso |||| %{smart_count} itens foram atualizados com sucesso',
       created: 'Item criado com sucesso',
-      deleted: 'Item removido com sucesso! |||| %{smart_count} itens foram removidos com sucesso',
+      deleted:
+        'Item removido com sucesso! |||| %{smart_count} itens foram removidos com sucesso',
       bad_item: 'Item incorreto',
       item_doesnt_exist: 'Esse item não existe mais',
       http_error: 'Erro na comunicação com servidor',
       data_provider_error: 'Erro interno do servidor. Entre em contato',
-      i18n_error: 'Não foi possível carregar as traduções para o idioma especificado',
+      i18n_error:
+        'Não foi possível carregar as traduções para o idioma especificado',
       canceled: 'Ação cancelada',
-      logged_out: 'Sua sessão foi encerrada. Por favor, reconecte'
+      logged_out: 'Sua sessão foi encerrada. Por favor, reconecte',
     },
     validation: {
       required: 'Obrigatório',

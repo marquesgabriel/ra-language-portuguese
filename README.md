@@ -5,26 +5,30 @@ Portuguese translations for [react-admin](https://github.com/marmelab/react-admi
 ## Installation
 
 ```sh
-yarn add ra-language-portuguese
+yarn add @henriko/ra-language-portuguese
+
+#or
+
+npm install @henriko/ra-language-portuguese
 ```
 
 ## Usage
 
 ```js
-import portugueseMessages from 'ra-language-portuguese'
-import polyglotI18nProvider from 'ra-i18n-polyglot';
+import portugueseMessages from "ra-language-portuguese";
+import polyglotI18nProvider from "ra-i18n-polyglot";
 
 const messages = {
-    'pt': portugueseMessages,
+  pt: portugueseMessages,
 };
 
-const i18nProvider = polyglotI18nProvider((locale) => messages[locale], 'pt');
+const i18nProvider = polyglotI18nProvider((locale) => messages[locale], "pt");
 
-<Admin i18nProvider={i18nProvider}>
-  ...
-</Admin>
+<Admin i18nProvider={i18nProvider}>...</Admin>;
 ```
 
-This project was forked and adapted from original's [aor-language-portugues](https://github.com/movibe/aor-language-portugues) project
+This project was forked and adapted from original's [ra-language-portuguese](https://github.com/marquesgabriel/ra-language-portuguese) project
+
 ## License
-This translation is licensed under the [MIT Licence](LICENSE), and sponsored by [BlackBox Vision](https://github.com/BlackBoxVision).
+
+This translation is licensed under the [MIT Licence](LICENSE)
