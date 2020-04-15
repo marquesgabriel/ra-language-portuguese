@@ -1,4 +1,4 @@
-# Portuguese Translations for Admin-on-rest
+# Portuguese Translations for react-admin
 
 Portuguese translations for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST services.
 
