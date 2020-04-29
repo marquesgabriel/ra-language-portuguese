@@ -68,6 +68,7 @@ module.exports = {
       loading: 'A página está carregando. Um momento, por favor',
       no: 'Não',
       not_found: 'Foi digitada uma URL inválida, ou o link pode estar quebrado.',
+      unsaved_changes: 'Suas alterações não foram salvas. Quer mesmo ignorá-las?',
       yes: 'Sim',
     },
     navigation: {
