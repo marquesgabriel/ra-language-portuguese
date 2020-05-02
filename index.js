@@ -50,7 +50,7 @@ module.exports = {
         upload_single: 'Arraste um arquivo para upload ou clique em selecionar arquivo.',
       },
       references: {
-        all_missing: 'Não foi possível encontrar os dados das referencias.',
+        all_missing: 'Não foi possível encontrar os dados das referências.',
         many_missing: 'Pelo menos uma das referências passadas não está mais disponível.',
         single_missing: 'A referência passada aparenta não estar mais disponível.',
       },
