@@ -22,12 +22,16 @@ module.exports = {
       show: 'Exibir',
       sort: 'Ordenar',
       undo: 'Desfazer',
+      unselect: 'Desfazer seleção',
       expand: 'Expandir',
       close: 'Fechar',
+      open_menu: 'Abrir menu',
+      close_menu: 'Fechar menu',
     },
     boolean: {
       true: 'Sim',
       false: 'Não',
+      null: '',
     },
     page: {
       create: 'Novo %{name}',
@@ -38,6 +42,8 @@ module.exports = {
       loading: 'Carregando',
       not_found: 'Não encontrado',
       show: '%{name} #%{id}',
+      empty: 'Nenhum %{name} encontrado.',
+      invite: 'Você deseja adicionar alguém?',
     },
     input: {
       file: {
@@ -54,6 +60,10 @@ module.exports = {
         many_missing: 'Pelo menos uma das referências passadas não está mais disponível.',
         single_missing: 'A referência passada aparenta não estar mais disponível.',
       },
+     password: {
+        toggle_visible: 'Ocultar senha',
+        toggle_hidden: 'Exibir senha',
+     },
     },
     message: {
       about: 'Sobre',
