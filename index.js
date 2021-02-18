@@ -31,7 +31,7 @@ module.exports = {
     boolean: {
       true: 'Sim',
       false: 'Não',
-      null: '',
+      null: ' ',
     },
     page: {
       create: 'Novo %{name}',
@@ -102,6 +102,12 @@ module.exports = {
       page_rows_per_page: 'Resultados por página:',
       next: 'Próximo',
       prev: 'Anterior',
+      skip_nav: 'Pular para o conteúdo',
+    },
+    sort: {
+      sort_by: 'Ordenar por %{field} %{order}',
+      ASC: 'crescente',
+      DESC: 'decrescente',
     },
     auth: {
       auth_check_error: 'Por favor, faça login para continuar',
