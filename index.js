@@ -10,6 +10,7 @@ module.exports = {
       clone: 'Duplicar',
       confirm: 'Confirmar',
       create: 'Novo',
+      create_item: 'Novo %{item}',
       delete: 'Deletar',
       edit: 'Editar',
       export: 'Exportar',
