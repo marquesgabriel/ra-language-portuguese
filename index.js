@@ -28,6 +28,7 @@ module.exports = {
       close: 'Fechar',
       open_menu: 'Abrir menu',
       close_menu: 'Fechar menu',
+      update: 'Atualizar',
     },
     boolean: {
       true: 'Sim',
@@ -75,9 +76,13 @@ module.exports = {
       about: 'Sobre',
       are_you_sure: 'Tem certeza?',
       bulk_delete_content:
-        'Você tem certeza que deseja excluir %{name}? |||| Você tem certeza que deseja excluir estes %{smart_count} itens?',
+        'Você tem certeza que deseja excluir este %{name}? |||| Você tem certeza que deseja excluir estes %{smart_count} itens?',
       bulk_delete_title:
         'Excluir %{name} |||| Excluir %{smart_count} %{name} itens',
+      bulk_update_content:
+        'Tem certeza que quer atualizar este %{name}? |||| Tem certeza que quer atualizar estes %{smart_count} itens?',
+      bulk_update_title:
+        'Atualizar %{name} |||| Atualizar %{smart_count} %{name}',
       delete_content: 'Você tem certeza que deseja excluir?',
       delete_title: 'Excluir %{name} #%{id}',
       details: 'Detalhes',
